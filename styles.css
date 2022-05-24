@@ -26,6 +26,8 @@ body {
 
 }
 
+
+
 .introduction {
 
     margin-top: 5%;
@@ -110,6 +112,11 @@ p {
     margin-right: 15%;
 
 
+}
+
+.navbar-img{
+
+    width: 80%;
 }
 
 
