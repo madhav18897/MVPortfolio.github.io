@@ -1,0 +1,300 @@
+#title {
+
+    background-image: url('gradienta-7brhZmwXn08-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+
+
+}
+
+
+
+body {
+
+    font-family: 'Manrope', sans-serif;
+    color: #293241;
+    background-color: white
+}
+
+.home-img {
+
+    border-radius: 100%;
+    margin: 5% auto 5% auto;
+    width: 240px;
+
+
+}
+
+.introduction {
+
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 800px) {
+
+    .introduction {
+
+        text-align: center;
+    }
+
+    .nav-item {
+
+        margin-top: 5%;
+    }
+}
+
+.social-media {
+
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    align-items: baseline;
+}
+
+.social-media:hover {
+
+    transform: scale(2);
+    transition: 0.5s ease;
+
+}
+
+h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #293421;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h2 {
+
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+
+}
+
+h3 {
+
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+
+p {
+    font-weight: normal;
+    color: #293241;
+    font-size: 1.125rem;
+}
+
+.container-fluid {
+
+    padding: 2% 10% 2% 10%;
+    /* background-image:url('beach.jpg') ;
+    background-size:cover ;
+    background-repeat: no-repeat; */
+}
+
+.navbar-nav {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 0 0 0;
+    margin-right: 15%;
+
+
+}
+
+
+
+.nav-item {
+
+    font-size: 1.5rem;
+    padding: 0 5% 0 5%;
+
+
+}
+
+.navbar-icons{
+
+    margin-right: 1rem ;
+}
+
+.nav-item:hover {
+
+    transform: scale(1.15);
+    transition: 0.5s ease;
+
+
+}
+
+.nav-link {
+
+    font-weight: bold;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    color: #3d3c3c;
+}
+
+.row {
+
+    margin: 5% 0% 5% 0%;
+}
+
+
+#About-Me {
+
+    padding: 2% 10% 2% 10%;
+    text-align: center;
+    /* background-color: #F8E4DB; */
+    background-color: white;
+
+}
+
+#MyWork {
+
+
+    padding: 2% 10% 2% 10%;
+    text-align: center;
+}
+
+.card {
+
+    padding: 3% 2%;
+    text-align: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 6px;
+    margin: 4% 0% 4% 0%;
+}
+
+.project-img {
+
+    height: 108px;
+    margin: 10% auto 10% auto;
+    padding: 5%;
+
+}
+
+.project-items {
+
+    text-align: center;
+}
+
+.card:hover {
+
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+
+
+
+.testimonial-img {
+
+    width: 70%;
+    margin: 0%;
+    
+}
+
+/* .testimonial-img:hover{
+
+    
+    transform: scale(1.05);
+    transition: 0.5s ease;
+    border-radius: 24px;
+} */
+
+
+#MyPassions {
+
+    text-align: center;
+
+}
+
+
+
+.passion-item{
+
+    margin: auto;
+    text-align: center;
+}
+
+.youtube-button{
+
+    position: relative;
+    margin: 2% auto 10% auto;
+    white-space: nowrap;
+    font-weight: bolder;
+    color: #3d3c3c;
+    
+}
+
+
+
+.fa-brands{
+
+    margin-right: 0.5rem;
+    color: #c4302b;
+
+
+  }
+
+.passions{
+
+    margin: auto;
+
+
+}
+
+
+/* footer */
+#footer{
+
+    background-color: #3d3c3c ;
+}
+
+.bottom-container{
+
+    margin: 1% 5% 2% 5%;
+    text-align: center;
+}
+
+.footer-link{
+    
+    color: white;
+    padding: 5%;
+    font-weight: bolder;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    
+
+  }
+
+  .footer-link:hover{
+
+    color: #11999E;
+    text-decoration: none;
+  }
+
+  .bottomtext{
+
+    color: white;
+    margin-top: 10%;
+    
+  }
+
+  .footer-icon{
+
+    color: #11999E;
+    margin-right: 0.5rem;
+  }
+
+
+
