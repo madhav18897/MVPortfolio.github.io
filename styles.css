@@ -44,6 +44,11 @@ body {
 
         margin-top: 5%;
     }
+
+    .resumepdf{
+
+        height: 800px;
+    }
 }
 
 .social-media {
