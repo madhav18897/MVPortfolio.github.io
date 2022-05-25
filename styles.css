@@ -49,6 +49,8 @@ body {
 
         height: 800px;
     }
+
+
 }
 
 .social-media {
@@ -209,7 +211,7 @@ p {
 
 .testimonial-img {
 
-    width: 70%;
+    width: 90%;
     margin: 0%;
     
 }
@@ -240,7 +242,7 @@ p {
 .youtube-button{
 
     position: relative;
-    margin: 2% auto 10% auto;
+    margin: 5% auto 5% auto;
     white-space: nowrap;
     font-weight: bolder;
     color: #3d3c3c;
