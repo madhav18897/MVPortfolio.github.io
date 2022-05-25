@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="MVLOGO.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/97869109ad.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section id="title">
+
+
+        <div class="container-fluid">
+
+
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"><img class="navbar-img" src="navbarmvlogo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><i class="navbar-icons fa-solid fa-file"></i>Resume</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="">Engineering Projects</a> -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><i class="navbar-icons fa-solid fa-newspaper"></i>Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><i class="navbar-icons fa-solid fa-address-card"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12">
+
+                    <form action="https://formsubmit.co/shadowboxer2142@gmail.com" method="POST">
+                        <h2 style="margin: 2% auto 5% auto; font-weight: bold;">Get in Touch</h2>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="text" id="email" placeholder="Your Email" required>
+                        <input type="text" id="phone" placeholder="Your Phone Number (optional)">
+                        <input type="hidden" name="_next" value="thankyou.html">
+                        <input type="hidden" name="_subject" value="New inquiry on Website">
+                        <input type="hidden" name="_captcha" value="false">
+                        <textarea id="message" rows="5" placeholder="Type your message for me here"></textarea>
+                        <button type="submit"> Submit </button>
+
+                    </form>
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+         
+
+     
+    
+        
+        
+
+
+    </section>
+
+
+
+    <section id="footer">
+
+        <div class="container-fluid">
+
+
+
+            <div class="bottom-container">
+
+                <h2 class="bottom-text" style="color: #ffffff; margin: 5% auto 5% auto;">Like my work and want to work
+                    with me or add me to your network?</h2>
+                <a class="footer-link" href="https://www.linkedin.com/in/madhav-varma/" target="_blank"><i
+                        class="footer-icon fa-brands fa-linkedin"></i>LinkedIn</a>
+                <a class="footer-link" href="mailto:madhavv09@gmail.com" target="_blank"><i
+                        class="footer-icon fa-solid fa-envelope"></i>Email Me</a>
+                <!-- <a class="footer-link" href="https://dribbble.com/madhavv09" target="_blank"><i class="footer-icon fa-brands fa-dribbble"></i>Dribbble</a> -->
+                <p class="bottomtext">© Madhav Varma.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+
+                        Email.send({
+                Host : "smtp.gmail.com",
+                Username : "shadowboxer2142@gmail.com",
+                Password : "shadowboxer@2142$",
+                To : 'shadowboxer2142@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Website inquiry",
+                Body : "Name: "+ document.getElementById("name").value
+                         +"Email: "+ document.getElementById("email").value
+                         +"Phone: "+ document.getElementById("phone").value
+                         +"Message: "+ document.getElementById("message").value
+
+
+            }).then(
+            message => alert("Message sent successfully")
+            );
+        }
+    </script> -->
+
+
+</body>
+
+</html>

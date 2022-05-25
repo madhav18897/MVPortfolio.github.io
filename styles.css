@@ -212,7 +212,7 @@ p {
 .testimonial-img {
 
     width: 90%;
-    margin: 0%;
+    margin: 0 0 10% 0;
     
 }
 
@@ -242,7 +242,7 @@ p {
 .youtube-button{
 
     position: relative;
-    margin: 5% auto 5% auto;
+    margin: 5% auto 2% auto;
     white-space: nowrap;
     font-weight: bolder;
     color: #3d3c3c;
@@ -311,4 +311,46 @@ p {
   }
 
 
+
+form{
+
+    background-color: none;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 2vw;
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    margin-top: 2%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+form input, textarea{
+
+    margin: 2% 5% 2% 5%;
+    border: none;
+    border-radius: 6px;
+    background-color: #efefef;
+    outline: none;
+    padding: 3%;
+    font-weight: lighter;
+
+
+}
+
+form button{
+
+    margin: 5% 5% 5% 5%;
+    padding: 3%;
+    background-color: #3d3c3c;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    width: auto;
+    max-width: 600px;
+    font-weight: bolder;
+    outline: none;
+}
 
