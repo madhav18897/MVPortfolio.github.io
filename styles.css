@@ -322,7 +322,7 @@ form{
     width: 100%;
     max-width: 600px;
     background-color: #ffffff;
-    margin-top: auto;
+    margin: auto;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 
 }
