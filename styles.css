@@ -26,6 +26,22 @@ body {
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 0.75s ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
 
 
 .introduction {
@@ -186,6 +202,12 @@ p {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     border-radius: 6px;
     margin: 4% 0% 4% 0%;
+ 
+}
+
+.card-text{
+
+    margin-bottom: 2%;
 }
 
 .project-img {
@@ -322,8 +344,9 @@ form{
     width: 100%;
     max-width: 600px;
     background-color: #ffffff;
-    margin: auto;
+    /* margin-top: 2%; */
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: auto;
 
 }
 

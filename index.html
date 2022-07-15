@@ -95,7 +95,7 @@
     <section id="About-Me">
 
 
-        <div class="row">
+        <div class="row reveal">
 
             <div class="col-lg-12">
                 <h3>Me and My Goals</h3>
@@ -117,7 +117,7 @@
 
     <section id="MyWork">
 
-        <div class="col-lg-12">
+        <div class="col-lg-12 reveal">
 
 
             <h3 style="margin:2% ;">My Work</h3>
@@ -127,7 +127,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row reveal">
 
             <div class="project-item col-lg-4 col-md-6 col-sm-12">
                 <div class="card">
@@ -202,7 +202,7 @@
 
     <section id="MyPassions">
 
-        <div class="col-lg-12">
+        <div class="col-lg-12 reveal">
 
 
             <h3 style="margin:2% ;">My Passions</h3>
@@ -211,7 +211,7 @@
 
         </div>
 
-        <div class="passions row">
+        <div class="passions row reveal">
 
 
 
@@ -253,6 +253,28 @@
         </div>
 
     </section>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+    
+        function reveal(){
+          var reveals = document.querySelectorAll('.reveal');
+    
+          for(var i = 0; i < reveals.length; i++){
+    
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 150;
+    
+            if(revealtop < windowheight - revealpoint){
+              reveals[i].classList.add('active');
+            }
+            else{
+              reveals[i].classList.remove('active');
+            }
+          }
+        }
+    </script>
 
 
 </body>
