@@ -42,7 +42,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="resume.html"><i class="navbar-icons fa-solid fa-file"></i>Resume</a>
+                            <a class="nav-link" href="resume.html" target="_blank"><i class="navbar-icons fa-solid fa-file"></i>Resume</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="">Engineering Projects</a> -->
@@ -51,7 +51,7 @@
                             <a class="nav-link" href=""><i class="navbar-icons fa-solid fa-newspaper"></i>Articles</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contactme.html"><i class="navbar-icons fa-solid fa-address-card"></i>Contact</a>
+                            <a class="nav-link" href=""><i class="navbar-icons fa-solid fa-address-card"></i>Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -60,15 +60,18 @@
             <div class="row">
 
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    
+
                     <form action="https://formsubmit.co/shadowboxer2142@gmail.com" method="POST">
-                         <h2 style="margin: 2% auto 5% auto; font-weight: bold;">Get in Touch</h2>
-                         <input type="text" name="name" placeholder="Your Name" required>
-                         <input type="email" name="email" placeholder="Your Email" required>
-                         <textarea name="message" rows="5" placeholder="Type your message for me here"></textarea>
-                         <input type="hidden" name="_next" value="https://madhav18897.github.io/MVPortfolio.github.io/thankyou.html">
-                         <button type="submit"> Submit </button
-   
+                        <h2 style="margin: 2% auto 5% auto; font-weight: bold;">Get in Touch</h2>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="text" id="email" placeholder="Your Email" required>
+                        <input type="text" id="phone" placeholder="Your Phone Number (optional)">
+                        <input type="hidden" name="_next" value="thankyou.html">
+                        <input type="hidden" name="_subject" value="New inquiry on Website">
+                        <input type="hidden" name="_captcha" value="false">
+                        <textarea id="message" rows="5" placeholder="Type your message for me here"></textarea>
+                        <button type="submit"> Submit </button>
+
                     </form>
 
                 </div>
