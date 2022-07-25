@@ -1,6 +1,6 @@
 #title {
 
-    background-image: url('gradienta-7brhZmwXn08-unsplash.jpg');
+    background-image: url('paula-vermeulen-_f2m3mEkaaU-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 90vh;
@@ -26,9 +26,6 @@ body {
 
 }
 
-html{
-    scroll-behavior: smooth;
-}
 
 .reveal{
     position: relative;
@@ -185,6 +182,14 @@ p {
     text-align: center;
     /* background-color: #F8E4DB; */
     background-color: white;
+
+}
+
+.section-separator{
+    height: 0.5px;
+    background-color: #DADADA; 
+    margin: 0 10% 0 10%;
+    border-radius: 12px;
 
 }
 
