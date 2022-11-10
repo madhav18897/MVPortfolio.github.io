@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>iDesign.Market Project</title>
+    <title>Evolve Esports Project</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -20,17 +20,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Sacramento&display=swap"
         rel="stylesheet">
-    <script src="https://kit.fontawesome.com/97869109ad.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/97869109ad.js" crossorigin="anonymous">
+
+        window.addEventListener("load", ()=>{
+            const loader=document.querySelector(".loader");
+            loader.classList.add("loader--hidden");
+            loader.addEventListener("transitionend", ()=>{
+                document.body.removeChild(loader);
+            });
+        });
+    </script>
 </head>
 
 <body>
 
-    
 
-
-
-         
-
+        <div class="loader loader--hidden"></div>
         <div class="resume" style="width:100% ; height:100%;">
     
             <!-- <embed class="resumepdf" src="iDesign case study (2)-protected.pdf" type="application/pdf" width="100%" height="1920px" style="margin: 0 auto 0 auto ;" > -->
