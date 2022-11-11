@@ -13,7 +13,7 @@
 body {
 
     font-family: 'Manrope', sans-serif;
-    color: #293241;
+    color: #313131;
     background-color: white
 }
 
@@ -88,7 +88,7 @@ h1 {
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: bold;
-    color: #293421;
+    color: #313131;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -112,7 +112,7 @@ h3 {
 
 p {
     font-weight: normal;
-    color: #293241;
+    color: #313131;
     font-size: 1.125rem;
 }
 
@@ -167,7 +167,7 @@ p {
     font-weight: bold;
     font-size: 1.5rem;
     white-space: nowrap;
-    color: #3d3c3c;
+    color: #313131;
 }
 
 .row {
@@ -283,7 +283,7 @@ p {
     margin: 5% auto 2% auto;
     white-space: nowrap;
     font-weight: bolder;
-    color: #3d3c3c;
+    color: #313131;
     
 }
 
@@ -308,7 +308,7 @@ p {
 /* footer */
 #footer{
 
-    background-color: #3d3c3c ;
+    background-color: #313131 ;
 }
 
 .bottom-container{
@@ -383,7 +383,7 @@ form button{
 
     margin: 5% 5% 5% 5%;
     padding: 3%;
-    background-color: #3d3c3c;
+    background-color: #313131;
     border: none;
     border-radius: 6px;
     color: #ffffff;
@@ -393,37 +393,6 @@ form button{
     outline: none;
 }
 
-.loader{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #3d3c3c;
-    transition: opacity 0.75s, visibility 0.75s;
-}
+/* loader */
 
-.loader--hidden{
-    opacity: 0;
-    visibility: hidden;
-
-}
-
-.loader::after{
-    content: "";
-    width: 75px;
-    height: 75px;
-    border: 15px solid #dddddd;
-    border-top-color: #bf5700;
-    border-radius: 50%;
-    animation: loading 0.75s ease infinite;
-}
-
-@keyframes loading {
-    from { transform: rotate(0turn);}
-    from { transform: rotate(1turn);}
-}
 
