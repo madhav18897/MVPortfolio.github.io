@@ -1,6 +1,6 @@
 #title {
 
-    background-image: url('paula-vermeulen-_f2m3mEkaaU-unsplash.jpg');
+    background-image: url('Rectangle\ 54heroimg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 90vh;
@@ -116,6 +116,16 @@ p {
     font-size: 1.125rem;
 }
 
+.heroright{
+
+    width: 90%;
+    margin: auto;
+    padding-left: 0%;
+    padding: 10%;
+
+
+}
+
 .container-fluid {
 
     padding: 2% 10% 2% 10%;
@@ -129,22 +139,36 @@ p {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 0 0 0 0;
-    margin-right: 15%;
+    margin-right: 20%;
 
 
 }
 
+.collapse{
+    margin: 0 0 0 0;
+}
+
+.navbar-brand{
+    margin: 0 5% 0 5%;
+    font-weight:bold;
+    font-size: 1.5rem;
+    font-family: 'Arvo', serif;
+}
+
 .navbar-img{
 
-    width: 80%;
+    width: 10%;
+
+    
 }
 
 
 
 .nav-item {
 
-    font-size: 1.5rem;
+    font-size: 1 rem;
     padding: 0 5% 0 5%;
+    margin-right: 10%;
 
 
 }
