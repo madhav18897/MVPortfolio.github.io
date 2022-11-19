@@ -122,6 +122,7 @@ p {
     margin: auto;
     padding-left: 0%;
     padding: 10%;
+    margin-top: 10%;
 
 
 }
@@ -133,6 +134,7 @@ p {
     background-size:cover ;
     background-repeat: no-repeat; */
 }
+
 
 .navbar-nav {
 
