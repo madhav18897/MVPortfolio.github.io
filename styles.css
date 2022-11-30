@@ -17,14 +17,47 @@ body {
     background-color: white
 }
 
-.home-img {
+.home-img1{
 
-    border-radius: 100%;
-    margin: 5% auto 5% auto;
-    width: 240px;
 
+    margin: 10% auto 0% auto;
+    width: 100%;
 
 }
+
+.home-img2{
+
+
+    margin: 10% auto 5% auto;
+    width: 60%;
+
+}
+
+@media screen and (max-width: 600px){
+
+    .home-img1{
+
+        display: none;
+    }
+
+    .home-img2{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 600px){
+
+    .home-img1{
+
+        display: block;
+    }
+
+    .home-img2{
+        display: none;
+    }
+}
+
+
 
 
 .reveal{
@@ -490,4 +523,6 @@ form button{
 
 /* button */
 
+
+/* Closing navbar */
 
