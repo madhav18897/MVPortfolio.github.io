@@ -1,6 +1,6 @@
 #title {
 
-    background-image: url('paula-vermeulen-_f2m3mEkaaU-unsplash.jpg');
+    background-image: url('Rectangle\ 54heroimg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 90vh;
@@ -8,23 +8,93 @@
 
 }
 
+.button-9 {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #005f86;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Arvo', 'serif';
+    font-size: 1rem;
+    height: 40px;
+    line-height: 1.15;
+    margin: 1% auto 8% auto;
+    outline: none;
+    overflow: hidden;
+    padding: 0 10%;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+  }
+  
+  .button-9:disabled {
+    cursor: default;
+  }
+  
+  .button-9:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+  }
+
 
 
 body {
 
     font-family: 'Manrope', sans-serif;
-    color: #293241;
+    color: #313131;
     background-color: white
 }
 
-.home-img {
+.home-img1{
 
-    border-radius: 100%;
-    margin: 5% auto 5% auto;
-    width: 240px;
 
+    margin: 10% auto 0% auto;
+    width: 100%;
 
 }
+
+.home-img2{
+
+
+    margin: 20% auto 10% auto;
+    width: 80%;
+
+}
+
+@media screen and (max-width: 800px){
+
+    .home-img1{
+
+        display: none;
+    }
+
+    .home-img2{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 800px){
+
+    .home-img1{
+
+        display: block;
+    }
+
+    .home-img2{
+        display: none;
+    }
+}
+
+
 
 
 .reveal{
@@ -63,8 +133,11 @@ body {
         height: 800px;
     }
 
-
 }
+
+
+
+
 
 .social-media {
 
@@ -85,10 +158,10 @@ body {
 
 h1 {
     font-family: 'Manrope', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.5;
     font-weight: bold;
-    color: #293421;
+    color: #313131;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -96,7 +169,7 @@ h1 {
 h2 {
 
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-top: 5%;
     margin-bottom: 5%;
 
@@ -105,6 +178,7 @@ h2 {
 
 h3 {
 
+    font-family: 'Arvo', 'serif';
     font-weight: bold;
     font-size: 2.5rem;
 
@@ -112,9 +186,82 @@ h3 {
 
 p {
     font-weight: normal;
-    color: #293241;
+    color: #313131;
     font-size: 1.125rem;
 }
+
+@media screen and (max-width: 500px) {
+
+    h1 {
+        font-family: 'Manrope', sans-serif;
+        font-size: 3rem;
+        line-height: 1.2;
+        font-weight: bold;
+        color: #313131;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    h2 {
+    
+        font-weight: bold;
+        font-size: 1rem;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    
+    
+    }
+    
+    h3 {
+    
+        font-weight: bold;
+        font-size: 2rem;
+    
+    }
+    
+    p {
+        font-weight: normal;
+        color: #313131;
+        font-size: 1rem;
+        margin: 25% auto 25% auto;
+    }
+    
+}
+
+/* hero image*/
+
+.heroright{
+
+    width: 90%;
+    margin: 10% auto 0% auto;
+    padding-left: 0%;
+    padding: 8%;
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .heroright{
+
+        width: 90%;
+        margin: 15% auto 0% auto;
+        padding-left: 0%;
+        padding: 10%;
+    
+    }
+
+
+}
+
+.quote{
+    width: 16%;
+    margin: 0;
+}
+
+
+
+
+
 
 .container-fluid {
 
@@ -124,27 +271,42 @@ p {
     background-repeat: no-repeat; */
 }
 
+
 .navbar-nav {
 
     font-size: 1.5rem;
     font-weight: bold;
     padding: 0 0 0 0;
-    margin-right: 15%;
+    margin-right: 20%;
 
 
 }
 
+.collapse{
+    margin: 0 0 0 0;
+}
+
+.navbar-brand{
+    margin: 0 5% 0 5%;
+    font-weight:bold;
+    font-size: 1.5rem;
+    font-family: 'Arvo', serif;
+}
+
 .navbar-img{
 
-    width: 80%;
+    width: 10%;
+
+    
 }
 
 
 
 .nav-item {
 
-    font-size: 1.5rem;
+    font-size: 1 rem;
     padding: 0 5% 0 5%;
+    margin-right: 10%;
 
 
 }
@@ -167,7 +329,7 @@ p {
     font-weight: bold;
     font-size: 1.5rem;
     white-space: nowrap;
-    color: #3d3c3c;
+    color: #313131;
 }
 
 .row {
@@ -211,6 +373,12 @@ p {
  
 }
 
+.card-title{
+
+    font-family: 'Arvo', 'serif';
+
+}
+
 .card-body{
 
     margin-top: 0%;
@@ -238,6 +406,8 @@ p {
 
     text-align: center;
 }
+
+
 
 .card:hover {
 
@@ -283,7 +453,7 @@ p {
     margin: 5% auto 2% auto;
     white-space: nowrap;
     font-weight: bolder;
-    color: #3d3c3c;
+    color: #313131;
     
 }
 
@@ -308,7 +478,7 @@ p {
 /* footer */
 #footer{
 
-    background-color: #3d3c3c ;
+    background-color: #313131 ;
 }
 
 .bottom-container{
@@ -383,7 +553,7 @@ form button{
 
     margin: 5% 5% 5% 5%;
     padding: 3%;
-    background-color: #3d3c3c;
+    background-color: #313131;
     border: none;
     border-radius: 6px;
     color: #ffffff;
@@ -393,37 +563,8 @@ form button{
     outline: none;
 }
 
-.loader{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #3d3c3c;
-    transition: opacity 0.75s, visibility 0.75s;
-}
+/* button */
 
-.loader--hidden{
-    opacity: 0;
-    visibility: hidden;
 
-}
-
-.loader::after{
-    content: "";
-    width: 75px;
-    height: 75px;
-    border: 15px solid #dddddd;
-    border-top-color: #bf5700;
-    border-radius: 50%;
-    animation: loading 0.75s ease infinite;
-}
-
-@keyframes loading {
-    from { transform: rotate(0turn);}
-    from { transform: rotate(1turn);}
-}
+/* Closing navbar */
 

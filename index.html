@@ -20,70 +20,77 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Sacramento&display=swap"
         rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/97869109ad.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
     <section id="title">
 
+                    <!-- Nav Bar -->
+
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: fixed; z-index: 100; width: 100%; box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.25);;">
+                        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img class="navbar-img" src="" alt=""><b>MV</b></a>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin: 0 10% ;">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="resume.html" target="_blank"><i class="navbar-icons fa-solid fa-file"></i>Resume</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#MyWork"><i class="navbar-icons fa-solid fa-newspaper"></i>Work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="mailto:madhav18897@utexas.edu" target="_blank"><i class="navbar-icons fa-solid fa-address-card"></i>Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    
+                         
+
 
         <div class="container-fluid">
-
-
-            <!-- Nav Bar -->
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="index.html"><img class="navbar-img" src="navbarmvlogo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="resume.html" target="_blank"><i class="navbar-icons fa-solid fa-file"></i>Resume</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="">Engineering Projects</a> -->
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.blogger.com/blog/posts/5422629094395549302" target="_blank"><i class="navbar-icons fa-solid fa-newspaper"></i>Articles</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contactme.html"><i class="navbar-icons fa-solid fa-address-card"></i>Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-
-
 
             <!-- Title -->
 
             <div class="row">
 
-                <div class="introduction col-lg-6 col-sm-12">
+                <div class="social col-lg-6 col-sm-12">
+                    <img class="heroright" src="heroright.png" >
+                </div>
 
-                    <img src="Vectorquotation.png" alt="">
-                    <h1>Hi! I'm Madhav Varma</h1>
-                    <h2>An Electronics and Communications Engineer turned <b>Product Designer</b></h2>
-                    <a href="mailto:madhavv09@gmail.com" target="_blank"><img class="social-media" src="email.png"></a>
+                <div class="introduction col-lg-6 col-sm-12" style="margin-top: 10% ;">
+
+
+                    <img class="quote" src="quoteicon.svg" alt="">
+                    <h1 style="font-family: 'arvo', 'serif' ; font-size: 2.5rem;">I'm Madhav Varma</h1>
+                    <h2>EC Engineer, HCI Master's Student, and<b style="font-family: 'Arvo' , 'Serif';"> Product Designer.</b>  Scroll to learn more!</h2>
+                    <!-- HTML !-->
+                    <button class="button-9" role="button" onclick="location.href='#MyWork'">Check out My Work!</button>
+                    <a href="mailto:madhav18897@utexas.edu" target="_blank"><img class="social-media" src="emailicon.svg"></a>
                     <a href="https://www.linkedin.com/in/madhav-varma/" target="_blank"><img class="social-media"
-                            src="linkedin.png" style="margin-left: 15%;"></a>
-                    <a href="https://dribbble.com/madhavv09" target="_blank"><img class="social-media" src="dribble.png"
+                            src="linkedin icon.svg" style="margin-left: 15%;"></a>
+                    <a href="https://dribbble.com/madhavv09" target="_blank"><img class="social-media" src="dribble icon.svg"
                             style="margin-left: 15%;"></a>
                     <a href="https://www.youtube.com/user/madhavv09" target="_blank"><img class="social-media"
-                            src="youtube.png" style="margin-left: 15%;"></a>
+                            src="youtubeicon.svg" style="margin-left: 15%;"></a>
 
 
                 </div>
+                
 
-                <div class="social col-lg-6 col-sm-12">
-
-                </div>
-
+              
             </div>
 
         </div>
@@ -98,14 +105,9 @@
         <div class="row reveal">
 
             <div class="col-lg-12">
-                <h3>Me and My Goals</h3>
-                <img class="home-img" src="dubai.png">
-                <p style="font-weight:bold ; justify-content: center; margin: auto;">An Electronics and Communications
-                    Engineer turned Product Designer who loves to design and develop digital products from scratch.
-                    I have more than two years of experience in crafting meaningful customer experiences in the consumer
-                    electronics industry and 6 months of experience designing digital products for an early stage
-                    startup.
-                    I'm always looking for a fresh new challenge where I can make a difference.</p>
+                <h3>My Career Roadmap and Goals</h3>
+                <img class="home-img1 reveal" src="careerRoadmap.svg">
+                <img class="home-img2 reveal" src="careerRoadmapMob.svg">
 
             </div>
 
@@ -124,7 +126,7 @@
 
             <h3 style="margin:2% ;">My Work</h3>
             <p style="font-weight:bold ; justify-content: center; margin: auto;">Here are some of the projects I have
-                done in my professional life, in Product Design, User Experience Design and Customer Experience</p>
+                done in my professional life, in Product Design, User Experience Design and Customer Experience and Service Design.</p>
 
 
         </div>
@@ -136,7 +138,7 @@
                     <img class="project-img" src="iDesign background.svg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h2 class="card-title">iDesign.Market</h2>
-                        <p class="card-text">A SaaS product design project I did during my time at iDesign.Market.  have signed an NDA so this can only be discussed over an interview.</p>
+                        <p class="card-text">A SaaS Product Design project I did during my time at iDesign.Market. Details can be discussed only over an interview.</p>
                         <a href="iDesignproject.html" class="stretched-link" target="_blank"></a>
                     </div>
                 </div>
@@ -181,10 +183,21 @@
 
             <div class="project-item col-lg-4 col-md-6 col-sm-12">
                 <div class="card">
+                    <img class="project-img" src="mushroombg.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-title">My | Co : Mushroom Log Harvester (coming soon!)</h2>
+                        <p class="card-text">A Physical Product Design project done at UT for the specialty mushroom industry in the US.</p>
+                        <a href="MushroomProject.html" class="stretched-link" target="_blank"></a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="project-item col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
                     <img class="project-img" src="dyson bg.svg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h2 class="card-title">Dyson India</h2>
-                        <p class="card-text">A customer experience design project I did during my time at Dyson.  have signed an NDA so this can only be discussed over an interview.</p>
+                        <p class="card-text">A customer experience design project I did during my time at Dyson. Details can be discussed only over an interview.</p>
                         <a href="dysonvbgproject.html" class="stretched-link" target="_blank"></a>
                     </div>
                 </div>
@@ -216,7 +229,7 @@
 
 
             <h3 style="margin:2% ; margin-top: 5% ;">My Passions</h3>
-            <p style="font-weight:bold ; justify-content: center; margin: auto 10% auto 10%;">Outside of design, I enjoy playing the guitar and I post videos on YouTube. I enjoy working out, travelling, and playing almost all sports.</p>
+            <p style="justify-content: center; margin: auto 10% auto 10%;">Outside of design, I enjoy playing the guitar and I post videos on YouTube. I enjoy working out, travelling, and playing almost all sports.</p>
 
 
         </div>
@@ -257,7 +270,7 @@
                 <a class="footer-link"  href="https://www.linkedin.com/in/madhav-varma/" target="_blank"><i class="footer-icon fa-brands fa-linkedin"></i>LinkedIn</a>
                 <a class="footer-link" href="mailto:madhavv09@gmail.com" target="_blank"><i class="footer-icon fa-solid fa-envelope"></i>Email Me</a>
                 <!-- <a class="footer-link" href="https://dribbble.com/madhavv09" target="_blank"><i class="footer-icon fa-brands fa-dribbble"></i>Dribbble</a> -->
-                <p class="bottomtext">© Madhav Varma.</p>
+                <p class="bottomtext">© Designed and Developed by <b>Madhav Varma</b>.</p>
             </div>
 
         </div>
@@ -274,7 +287,7 @@
     
             var windowheight = window.innerHeight;
             var revealtop = reveals[i].getBoundingClientRect().top;
-            var revealpoint = 150;
+            var revealpoint = 125;
     
             if(revealtop < windowheight - revealpoint){
               reveals[i].classList.add('active');
