@@ -12,7 +12,7 @@
     appearance: button;
     backface-visibility: hidden;
     background-color: #005f86;
-    border-radius: 6px;
+    border-radius: 300px;
     border-width: 0;
     box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
     box-sizing: border-box;
@@ -50,7 +50,7 @@
 body {
 
     font-family: 'Manrope', sans-serif;
-    color: #313131;
+    color: #252525;
     background-color: white
 }
 
@@ -114,6 +114,7 @@ body {
 .introduction {
 
     margin-top: 5%;
+    animation: fadeIn 3s;
 }
 
 @media screen and (max-width: 800px) {
@@ -197,7 +198,7 @@ p {
         font-size: 3rem;
         line-height: 1.2;
         font-weight: bold;
-        color: #313131;
+        color: #252525;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -221,7 +222,7 @@ p {
     
     p {
         font-weight: normal;
-        color: #313131;
+        color: #252525;
         font-size: 1rem;
         margin: 25% auto 25% auto;
     }
@@ -236,7 +237,14 @@ p {
     margin: 10% auto 0% auto;
     padding-left: 0%;
     padding: 8%;
+    animation: fadeIn 3s;
 
+}
+
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
 }
 
 @media screen and (max-width: 500px) {
@@ -247,6 +255,7 @@ p {
         margin: 15% auto 0% auto;
         padding-left: 0%;
         padding: 10%;
+        animation: fadeIn 1.5s;
     
     }
 
@@ -329,7 +338,7 @@ p {
     font-weight: bold;
     font-size: 1.5rem;
     white-space: nowrap;
-    color: #313131;
+    color: #252525;
 }
 
 .row {
@@ -474,6 +483,50 @@ p {
 
 }
 
+.backtotop{
+    margin: -5% auto 10% auto;
+    width: 10%;
+    z-index: -100;
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;  
+}
+
+@media screen and (max-width: 500px) {
+
+    .backtotop{
+
+        width: 15%;
+    }
+
+
+}
+
+
+  
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 25% , 0);
+    }
+}
+
+  
+@-webkit-keyframes bounce {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        -webkit-transform: translate3d(0, 200px, 0);
+        transform: translate3d(0, 25%, 0);
+    }
+}
+
+
 
 /* footer */
 #footer{
@@ -567,4 +620,8 @@ form button{
 
 
 /* Closing navbar */
+
+/* loading bar*/
+
+
 
