@@ -100,15 +100,15 @@
 
     </section>
 
-    <section id="About-Me">
+    <section id="About-Me" style="background-color: #252525;">
 
 
         <div class="row reveal">
 
             <div class="col-lg-12">
-                <h3>My Career Roadmap and Goals</h3>
-                <img class="home-img1 reveal" src="careerRoadmap.svg">
-                <img class="home-img2 reveal" src="careerRoadmapMob.svg">
+                <h3 style="color :white">My Career Roadmap and Goals</h3>
+                <img class="home-img1 reveal" src="CareerRoadmapdark.svg">
+                <img class="home-img2 reveal" src="careerRoadmapMobDark.svg">
 
             </div>
 
@@ -118,9 +118,9 @@
 
     </section>
 
-    <hr class="section-separator reveal">
+    <!-- <hr class="section-separator reveal"> -->
 
-    <section id="MyWork">
+    <section id="MyWork" style="background-color: #eaeaea;">
 
         <div class="col-lg-12 reveal">
 
@@ -236,31 +236,32 @@
 
     </section>
 
-    <hr class="section-separator reveal">
+    <!-- <hr class="section-separator reveal"> -->
 
-    <section id="MyPassions">
-
-        <div class="col-lg-12 reveal">
+    <section id="MyPassions" style="background-color: #252525;">
 
 
-            <h3 style="margin:2% ; margin-top: 5% ;">My Passions</h3>
-            <p style="justify-content: center; margin: auto 10% auto 10%;">Outside of design, I enjoy playing the guitar and I post videos on YouTube. I enjoy working out, travelling, and playing almost all sports.</p>
-
-
-        </div>
 
         <div class="passions row reveal">
 
+            <div class="col-lg-12">
+
+                <h3 style="margin: 5% auto 2% auto ; color:#ffffff;">My Passions</h3>
+                <p style="justify-content: center; margin: auto 10% auto 10%; color: #ffffff; ">Outside of design, I enjoy playing the guitar and I post videos on YouTube. I enjoy working out, travelling, and playing almost all sports.</p>
+    
+    
+            </div>
 
 
-            <div class="passion-item col-lg-12 col-sm-12 ">
 
-                <a href="https://www.youtube.com/user/madhavv09" target="_blank"><button class="youtube-button btn btn-cover btn-outline-dark"><i class="fa-brands fa-youtube"></i>Check out my YouTube Channel</button></a>
+            <div class="passion-item col-lg-12 col-sm-12 reveal">
+
+                <a href="https://www.youtube.com/user/madhavv09" target="_blank"><button class="youtube-button btn btn-cover btn-outline-dark" style="color: #ffffff;"><i class="fa-brands fa-youtube"></i>Check out my YouTube Channel</button></a>
 
 
             </div>
 
-            <div class="passion-item col-lg-12 col-sm-12 ">
+            <div class="passion-item col-lg-12 col-sm-12 reveal">
 
                 <img class="testimonial-img" src="youtube_channel.png" alt="guitar">
                 
@@ -305,7 +306,7 @@
     
             var windowheight = window.innerHeight;
             var revealtop = reveals[i].getBoundingClientRect().top;
-            var revealpoint = 125;
+            var revealpoint = 80;
     
             if(revealtop < windowheight - revealpoint){
               reveals[i].classList.add('active');
