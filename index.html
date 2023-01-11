@@ -107,14 +107,14 @@
         <div class="col-lg-12 reveal">
 
 
-            <h3 style="margin: 2% ;">Projects</h3>
+            <h3>Projects</h3>
             <p style="font-weight:bold ; justify-content: center; margin: auto;">My Projects in 
                  Product Design, User Experience Research and Design, Customer Experience and Service Design.</p>
 
 
         </div>
 
-        <div class="row reveal" style="margin-bottom: 0%;">
+        <div class="row projects reveal">
 
             <div class="project-item col-lg-4 col-md-6 col-sm-12">
                 <div class="card">
@@ -198,7 +198,7 @@
         <div class="row reveal">
 
             <div class="col-lg-12">
-                <h3 style="color :#252525">My Career Roadmap and Goals</h3>
+                <h3 class="roadmap" style="color :#252525">My Career Roadmap and Goals</h3>
                 <img class="home-img1 reveal" src="careerRoadmapLightWeb.svg">
                 <img class="home-img2 reveal" src="careerRoadmapLightMob.svg">
 
@@ -281,7 +281,7 @@
     
             var windowheight = window.innerHeight;
             var revealtop = reveals[i].getBoundingClientRect().top;
-            var revealpoint = 80;
+            var revealpoint = 50;
     
             if(revealtop < windowheight - revealpoint){
               reveals[i].classList.add('active');
