@@ -1,6 +1,6 @@
 #title {
 
-    background-image: url('Rectangle\ 54heroimg.svg');
+    background-image: url('Vector.svg');
     /* background-image: url('Linebg\ 1.svg'); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
     appearance: button;
     backface-visibility: hidden;
     background-color: #005f86;
-    border-radius: 300px;
+    border-radius: 400px;
     border-width: 0;
     box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
     box-sizing: border-box;
@@ -234,7 +234,7 @@ p {
     
     p {
         font-weight: normal;
-        color: #252525;
+        color: #7e7e7e;
         font-size: 1rem;
         margin: 25% auto 25% auto;
     }
