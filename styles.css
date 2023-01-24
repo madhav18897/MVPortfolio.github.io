@@ -1,6 +1,6 @@
 #title {
 
-    background-image: url('Vector.svg');
+    background-image: url('dottedbg.png');
     /* background-image: url('Linebg\ 1.svg'); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -245,7 +245,7 @@ p {
 
 .heroright{
 
-    width: 90%;
+    width: 100%;
     margin: 10% auto 0% auto;
     padding-left: 0%;
     padding: 8%;
@@ -263,7 +263,7 @@ p {
 
     .heroright{
 
-        width: 90%;
+        width: 100%;
         margin: 15% auto 0% auto;
         padding-left: 0%;
         padding: 10%;
@@ -282,7 +282,7 @@ p {
 }
 
 .quote{
-    width: 16%;
+    width: 25%;
     margin: 0;
 }
 
