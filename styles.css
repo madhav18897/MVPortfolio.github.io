@@ -231,7 +231,7 @@ p{
 
     padding: 0;
     text-align: center; 
-    border-radius: 6px;
+    border-radius: 16px;
     margin-bottom: 10%;
     background: #292929;
     
@@ -268,6 +268,7 @@ p{
 
     width: 100%;
     object-fit: cover;
+    border-radius: 16px 16px 0px 0px;
     
 
 }
@@ -366,7 +367,7 @@ p{
 /* footer */
 
 #footer{
-    margin: 2% 0% 3% 2%;
+    margin: 2% 0% 0% 2%;
     padding: 5%;
 }
 
@@ -379,7 +380,7 @@ p{
     width: 100%;
     background-color: #03DAC6; 
     border-radius: 30px;
-    margin: 5% 0 0 2%;
+    margin: 5% 0%;
 }
 
 .backtotop{
@@ -432,6 +433,32 @@ p{
 .copyright{
     margin:5% 0% 0% 0%;
 }
+
+@media screen and (max-width:800px){
+
+    .footer-line{
+        height: 5px; 
+        width: 100%;
+        background-color: #03DAC6; 
+        border-radius: 30px;
+        margin: 5% 0 5% 0%;
+    }
+
+
+}
+
+@media screen and (max-width:800px){
+
+    #hero,#navigation,#about,#projects,#workexperience,#OtherCreativeWork,#footer{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+}
+
+
+
+
 
 /* fade in animation */
 
