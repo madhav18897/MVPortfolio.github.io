@@ -80,6 +80,7 @@ p{
     justify-content: space-evenly;
     margin: 5% 0% 5% 0%;
     display: flex;
+    animation: fadeIn 3s;
     
 }
 
@@ -180,6 +181,7 @@ p{
     
     margin: 5%;
     animation: fadeIn 3s;
+    
 
 }
 
