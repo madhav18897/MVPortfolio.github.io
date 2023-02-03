@@ -331,9 +331,17 @@ p{
 
 .workex{
     background-color: #bb86fc;
-    padding: 2.5%;
+    padding: 3%;
     border-radius: 24px 24px 24px 0px;
     margin: 5% 0%;
+
+}
+
+@media screen and (max-width:800px){
+
+    .workex{
+        padding: 5%;
+    }
 
 }
 
