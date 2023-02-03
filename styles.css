@@ -379,7 +379,7 @@ p{
     width: 100%;
     background-color: #03DAC6; 
     border-radius: 30px;
-    margin: 5% 0%;
+    margin: 5% 0 0 2%;
 }
 
 .backtotop{
@@ -430,7 +430,7 @@ p{
 }
 
 .copyright{
-    margin:5% 0% 5% 0%;
+    margin:5% 0% 0% 0%;
 }
 
 /* fade in animation */
