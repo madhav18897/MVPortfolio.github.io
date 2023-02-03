@@ -1,3 +1,9 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
 @font-face {
     font-family: 'gilroyextrabold';
     src: url('gilroy-extrabold-webfont.woff2') format('woff2'),
@@ -9,7 +15,8 @@
 
 body{
     background-color: #121212;
-    
+    margin: 0%;
+    padding: 0%;
 }
 
 
@@ -70,7 +77,15 @@ p{
 .backgroundhero{
     width: 100%;
     z-index: -10;
+    margin: 0%;
 
+}
+
+#hero{
+
+    background-image: url(assets/Vector\ 24.svg);
+    background-size: cover;
+    background-repeat: none;
 }
 
 /* top nav */
@@ -143,19 +158,19 @@ p{
 
 .introduction_card{
    
-    margin: -45% 5% 2% 5%;
+    margin: 0% 5% 2% 5%;
     padding: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.961);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 0 0 30px 30px;
     animation: fadeIn 3s;
     
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:800px){
 
     .heroimg{
         border-radius: 3000px;
@@ -164,6 +179,23 @@ p{
         width: 40%;
         animation: fadeIn 3s;
     }
+
+    
+
+    .introduction_card{
+   
+        margin: -10% 5% 2% 5%;
+ 
+        
+    }
+
+    #hero{
+
+        background-image: url(assets/Vector\ 24mob.svg);
+        background-size: cover;
+    }
+
+
 
 
 }
