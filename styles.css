@@ -105,6 +105,7 @@ p{
         justify-content: space-evenly;
         margin: 10% 0% 10% 0%;
         display: flex;
+        animation: fadeIn 3s;
         
     }
     
@@ -120,6 +121,10 @@ p{
         color: #03DAC6;
         font-size: 1rem;
         text-decoration: none;
+    }
+
+    .icon{
+        width: 24px;
     }
 
 
