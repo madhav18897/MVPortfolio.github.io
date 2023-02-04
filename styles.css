@@ -25,6 +25,7 @@ h1{
     color: #fff;
     font-size: 2.5rem;
     margin-top: 2%;
+    opacity: 87%;
 
 }
 
@@ -33,6 +34,7 @@ h2{
     color: #fff;
     font-size: 1.75rem;
     margin-top: 1%;
+    opacity: 87%;
     
 }
 
@@ -53,6 +55,7 @@ p{
         color: #fff;
         font-size: 1.5rem;
         margin-top: 2%;
+        opacity: 87%;
         
     }
     
@@ -61,6 +64,7 @@ p{
         color: #fff;
         font-size: 1.5rem;
         margin-top: 1%;
+        opacity: 87%;
         
     }
     
@@ -275,6 +279,7 @@ p{
     font-family: 'Manrope', 'sans-serif';
     font-size: 1.5rem;
     color: #ffff;
+    opacity: 87%;
 
 }
 
@@ -372,6 +377,7 @@ p{
     font-family: 'manrope', 'sans-serif';
     font-weight: bold;
     color: #ffff;
+    opacity: 87%;
     border-radius: 4px;
     
 }
@@ -431,6 +437,7 @@ p{
 .backtotop:hover{
     text-decoration: none;
     color: #fff;
+    opacity: 87%;
 }
 
 .footer-link{
