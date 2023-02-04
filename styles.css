@@ -92,6 +92,10 @@ p{
     background-repeat: none;
 }
 
+
+
+
+
 /* top nav */
 
 #navigation{
@@ -156,9 +160,10 @@ p{
 .heroimg{
     border-radius: 3000px;
     padding: 2%;
-    width: 40%;
+    width: 35%;
     animation: fadeIn 3s;
 }
+
 
 .introduction_card{
    
@@ -180,7 +185,7 @@ p{
         border-radius: 3000px;
         margin-top: 5%;
         padding: 2%;
-        width: 40%;
+        width: 60%;
         animation: fadeIn 3s;
     }
 
