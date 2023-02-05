@@ -282,7 +282,7 @@ p{
 .card-title{
 
     font-family: 'Manrope', 'sans-serif';
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #ffff;
     opacity: 87%;
 
@@ -533,3 +533,4 @@ p{
     transform: translateY(0px);
     opacity: 1;
   }
+
