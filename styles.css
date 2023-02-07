@@ -285,6 +285,7 @@ p{
     font-size: 1.25rem;
     color: #ffff;
     opacity: 87%;
+    text-align: left;
 
 }
 
@@ -302,6 +303,7 @@ p{
     margin-top: 0%;
     font-size: 1rem;
     color: #a7a7a7;
+    text-align: left;
     
     
 }
