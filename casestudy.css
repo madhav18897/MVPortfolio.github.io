@@ -1,9 +1,12 @@
-body{
+.body{
 
-    padding: 5%;
+   margin: 0% 5% 0% 5%;
     
 }
 
+html{
+    margin: 0%;
+}
 
 h1{
     font-family: 'Manrope', 'serif';
@@ -85,9 +88,13 @@ to {
     
 }
 
+.banner{
+    margin: 0%;
+}
+
 .hero{
     width:100%;
-    border-radius: 8px; 
+    /* border-radius: 8px;  */
 }
 
 li{
@@ -138,7 +145,7 @@ li{
 
 .user-persona{
     width: 100%;
-    margin: 5% auto 5% auto;
+    margin: 5% 0% 5% 0%;
 }
 
 
@@ -148,8 +155,8 @@ li{
 
 .bottom-banner{
     width: 100%;
-    margin: 5% 1% 5% 1%;
-    border-radius: 8px;
+    margin: 2% 0% 0% 0%;
+    border-radius: 0px;
 }
 
 
