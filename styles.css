@@ -283,6 +283,7 @@ p{
 
     font-family: 'Manrope', 'sans-serif';
     font-size: 1.25rem;
+    font-weight: 900;
     color: #ffff;
     opacity: 87%;
     text-align: left;
@@ -306,6 +307,15 @@ p{
     text-align: left;
     
     
+}
+
+.card-highlight{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 1rem;
+    color: #03DAC6;
+    opacity: 75%;
+    text-align: left;
 }
 
 .project-img {
