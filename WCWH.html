@@ -14,7 +14,7 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="casestudy.css">
+    <link rel="stylesheet" href="WCWH.css">
     <link rel="icon" href="MVLOGO.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,7 +33,25 @@
         });
     </script>
 </head>
-<div class="banner">
+
+<section class="top-nav" id="navbar">
+    <div>
+      <h1 style="color: #fff;"><a class="case-nav-links" href="#home">WCWH</a></li></h1>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+    </label>
+    <ul class="menu">
+      <li><a class="case-nav-links" href="#goals">Goals</a></li>
+      <li><a class="case-nav-links" href="#research">Research</a></li>
+      <li><a class="case-nav-links" href="#ideation">Ideation</a></li>
+      <li><a class="case-nav-links" href="#Prototyping">Prototyping and Testing</a></li>
+      <li><a class="case-nav-links" href="#finalprototype">Final Designs</a></li>
+    </ul>
+</section>
+
+<div class="banner" id="home">
     <img class="hero" src="wcwhpiece/heroposter.svg" alt="">
 
 </div>
@@ -46,7 +64,7 @@
         
     </div>
 
-    
+         
     <div class="container-fluid">
 
         <h1>Whole Communities Whole Health(A UT Initiative) Project</h1>
@@ -68,6 +86,8 @@
         <p>Families engaged in the research use the app Hornsense to understand the data that is summarized from their Fitbit bands and environmental sensors. They are given the information so they may decide on their health and living conditions with awareness. However, the app's structure is difficult to understand, and the data currently given on it lacks sufficient context.</p>
         
         <h1>Goals</h1>
+
+        <section id="goals">
         
         <div class="group row">
                 <div class="goal-item col-lg-4 col-md-6 col-sm-12">
@@ -89,7 +109,9 @@
                 </div>
         </div>
 
-        <h1>Competitive Analysis</h1>
+        </section>
+
+        <h1 id="research">Competitive Analysis</h1>
         <p>When we started to perform Competitor Analysis, we chose 6 competitors - 3 direct and 3 indirect. Direct competitors were those businesses that offered similar products or services to another company within the same market while indirect competitors were those that served the same customer needs as another company but offered different products or services. </p>
         <a href="https://docs.google.com/spreadsheets/d/1h5HZt4Arw3xMD60pbO4QlBsJa7v2iSYoy9Yvm40KEF8/edit#gid=0" target="_blank">Link to Competitive analysis</a>
         <img class="competitive" src="wcwhpiece/competitive.svg">
@@ -300,7 +322,7 @@
         <img class="info-arch" src="wcwhpiece/infoarch.svg">
 
 
-        <h1>Ideation</h1>
+        <h1 id="ideation">Ideation</h1>
         <p>To tinker around with ideas we started formulating after completing our user research and information architecture design phases, we started the ideation process, starting with sketching for a digital product.</p>
         
         <h2>Sketching</h2>
@@ -328,7 +350,7 @@
         <p>The following style guide is what we used to carry out the visual design process on our mid-fidelity screens, in Figma.</p>
         <img class="styleguide" src="wcwhpiece/styleguide.svg">
 
-        <h1>Prototyping</h1>
+        <h1 id="Prototyping">Prototyping</h1>
         <p>After the high-fidelity screens were ready in Figma, we thought about applying previously discussed user flows to the screens by connecting the screens together, and adding popups, overlays, modal sheets, and scrolls wherever necessary. This process would have to be repeated after carrying out user testing with this initial prototype.</p>
 
         <h1>User Testing</h1>
@@ -358,7 +380,7 @@
             <li class="inner-list-item">Add a button at the bottom of the profile page upon hitting which the user is given a confirmation in case they want to update their profile.</li>
         </ul>
 
-        <h1>Final Prototype and Walkthrough</h1>
+        <h1 id="finalprototype">Final Prototype and Walkthrough</h1>
         <p>You will find a clickable prototype of the product below. Have fun!</p>
         <a href="https://www.figma.com/proto/uuvQ3C8YfvmZipigpwJoyh/WCWH-IA-Project?page-id=932%3A2922&node-id=1768%3A5032&viewport=-4336%2C-979%2C0.24&scaling=scale-down&starting-point-node-id=1768%3A7494&show-proto-sidebar=1">Link to Final Prototype</a>
         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); margin: 5% 0%;" width="100%" height="800px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FuuvQ3C8YfvmZipigpwJoyh%2FWCWH-IA-Project%3Fpage-id%3D932%253A2922%26node-id%3D1768%253A5032%26viewport%3D-4336%252C-979%252C0.24%26scaling%3Dscale-down%26starting-point-node-id%3D1768%253A7494" loading="lazy" allowfullscreen ></iframe>
@@ -439,6 +461,18 @@
             }
           }
         }
+    </script>
+    <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+            }
     </script>
 
     

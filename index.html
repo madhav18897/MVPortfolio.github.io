@@ -29,7 +29,7 @@
 
 </head>
 <body>
-    <section class="top-nav">
+    <section class="top-nav" id="navbar">
         <div>
             <a class="case-nav-links" href="#hero"><h1 style="font-size: large;">MV</h1></a>   
         </div>
@@ -45,6 +45,8 @@
 
         </ul>
     </section>
+
+
 
     <section id="hero">
         <!-- <img class="backgroundhero" src="assets/Vector 24.svg" alt="blueish violet background at the top, with overall black background"> -->
@@ -269,6 +271,18 @@
               reveals[i].classList.remove('active');
             }
           }
+        }
+    </script>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
         }
     </script>
 
