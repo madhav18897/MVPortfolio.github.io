@@ -253,63 +253,6 @@ html, body {
 
 
 
-/* top nav */
-
-#navigation{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 5% 0% 5% 0%;
-    display: flex;
-    animation: fadeIn 3s;
-    
-}
-
-.navlink{
-    font-family: 'Gilroyextrabold';
-    color: #808080;
-    font-size: 1.75rem;
-    text-decoration: none;
-}
-
-.navlink:hover{
-    font-family: 'Gilroyextrabold';
-    color: #03DAC6;
-    font-size: 1.75rem;
-    text-decoration: none;
-    
-}
-
-@media screen and (max-width:500px){
-
-    #navigation{
-        display: flex;
-        justify-content: space-evenly;
-        margin: 10% 0% 10% 0%;
-        display: flex;
-        animation: fadeIn 3s;
-        
-    }
-    
-    .navlink{
-        font-family: 'Gilroyextrabold';
-        color: #808080;
-        font-size: 1.125rem;
-        text-decoration: none;
-    }
-    
-    .navlink:hover{
-        font-family: 'Gilroyextrabold';
-        color: #03DAC6;
-        font-size: 1.125rem;
-        text-decoration: none;
-    }
-
-    .icon{
-        width: 16px;
-    }
-
-
-}
 
 
 /* introcard */
@@ -340,7 +283,7 @@ html, body {
 
     .heroimg{
         border-radius: 3000px;
-        margin-top: 5%;
+        margin-top: 10%;
         padding: 2%;
         width: 60%;
         animation: fadeIn 3s;
@@ -350,7 +293,7 @@ html, body {
 
     .introduction_card{
    
-        margin: -10% 5% 2% 5%;
+        margin: -10% 0% 2% 0%;
  
         
     }
