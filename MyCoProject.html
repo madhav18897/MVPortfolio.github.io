@@ -34,11 +34,28 @@
     </script>
 </head>
 
+<section class="top-nav" id="navbar">
+    <div>
+      <h1 style="color: #fff;"><a class="case-nav-links" href="#home">MYCO</a></li></h1>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+    </label>
+    <ul class="menu">
+      <li><a class="case-nav-links" href="#problem">Problem space</a></li>
+      <li><a class="case-nav-links" href="#research">Research</a></li>
+      <li><a class="case-nav-links" href="#ideation">Ideation</a></li>
+      <li><a class="case-nav-links" href="#Prototyping">Prototyping and Testing</a></li>
+      <li><a class="case-nav-links" href="#finalprototype">Final Designs</a></li>
+    </ul>
+</section>
+
 
     
 
 
-<body>
+<div class="body">
 
     
     <div class="loader">
@@ -48,7 +65,7 @@
 
     
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="home">
 
         <img class="hero" src="My|Co Assets/mushroomhero.svg" alt="">
 
@@ -91,7 +108,7 @@
         <h1>Project Timeline and Process</h1>
         <img class="mycoprocess" src="My|Co Assets/mycoprocess.svg">
 
-        <h1>Problem space</h1>
+        <h1 id="problem">Problem space</h1>
         <p>The mushroom industry is a new yet fast-growing industry in the United States. The demand for mushrooms has been steadily increasing over the years, with insufficient supply to meet said demand. The mushroom industry consists of large-scale, small-scale farms, local farms, and hobbyists, but most of the output comes from large-scale production. Small-scale farms have difficulty scaling up because of a lack of efficient processes, labor shortages, and technological constraints. Specifically, processes around harvesting are manual, labor-intensive, and wasteful. In addition, the workers lose efficiency throughout the day as their bodies get tired. In turn, the output suffers. We seek to alleviate some constraints with the help of the products we design through the course of this class.</p>
 
         <h1>Design Response</h1>
@@ -106,7 +123,7 @@
         
         <h2>With MY|CO Mushroom Log Harvester, farmers can harvest more shiitake mushrooms effortlessly, all while preserving the mushrooms' quality and form. Consequently, it reduces the time farmers have to spend in the extremely low temperature grow rooms. It can also be customized to be integrated into existing collecting mechanisms.</h2>
 
-        <h1>Secondary Research</h1>
+        <h1 id="research">Secondary Research</h1>
         <p>Outside of speaking with mushroom farmers, we needed to engage in some secondary research to get a holistic understanding of the mushroom labor market in the US. Some of our findings are listed below.</p>
         <div class="group row">
                 <div class="goal-item col-lg-4 col-md-6 col-sm-12">
@@ -187,7 +204,7 @@
             <li class="inner-list-item">Cold Working Conditions (pickers work in temperatures as low as 61°F for prolonged hours)</li>
         </ul>
 
-        <h1>Sketches</h1>
+        <h1 id="ideation">Sketches</h1>
         <p>We learnt in class, from Lloyd Walker, a seasoned industry professional, that product sketching is one of the most important and powerful tools in our arsenal while designing a physical product. We started out with rough sketches and eventually drew out these final ideas for potential prototypes :</p>
         <img class="lowfi" src="My|Co Assets/sketches.svg">
 
@@ -199,7 +216,7 @@
         <p>On the basis of the above spreadsheet as well as the feedback from our professor Dr Evans, we shortlisted the following designs, along with the positives and negatives</p>
         <img class="lowfi" src="My|Co Assets/shortlistdesigns.svg">
 
-        <h1>Prototyping</h1>
+        <h1 id="Prototyping">Prototyping</h1>
         <p>We had two distinct prototyping processes. One was a rapid prototyping process where we made prototypes out of cardboard, paper, strings, glue and markers. This helped us get a visual idea of what the product might look like and which parts we might need eventually.
             The second prototyping stage was when we decided upon building the final log cutter, out of 3D printed and laser cut parts. We needed to go through a few iterations for the parts themselves to find an appropriate fit.</p>
         <img class="lowfi" src="My|Co Assets/prototyping.svg">
@@ -208,7 +225,7 @@
         <p>For setting up the final design, we needed to laser cut the twin-wheel mechanism for rotating the circular blade, assemble the blade itself and then put the mechanism, motor and blade together. We also needed to install this on a stand to give it some elevation, to improve the ergonomics of the product.</p>
         <img class="hifi" src="My|Co Assets/setup.svg">
 
-        <h1>Final Design</h1>
+        <h1 id="finalprototype">Final Design</h1>
         <p>For setting up the final design, we needed to laser cut the twin-wheel mechanism for rotating the circular blade, assemble the blade itself and then put the mechanism, motor and blade together. We also needed to install this on a stand to give it some elevation, to improve the ergonomics of the product.</p>
         <img class="designresponse" src="My|Co Assets/finaldesign.svg">
 
@@ -269,7 +286,7 @@
 
     
     </div>
-    <img class="bottom-banner" src="My|Co Assets/mycothanks.svg" alt="">
+    
 
     <script type="text/javascript">
         window.addEventListener('scroll', reveal);
@@ -292,11 +309,26 @@
           }
         }
     </script>
+     <!-- navbar disappears on scrolling -->
+    <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+            }
+    </script>
+    <!-- navbar disappears on scrolling -->
 
     
        
     
         
-</body>
+</div>
+<img class="bottom-banner" src="My|Co Assets/mycothanks.svg" alt="">
 
 </html>
