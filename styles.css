@@ -260,12 +260,14 @@ html, body {
 
 .hero-row{
     margin: auto;
+    
 }
 
 
 .heroimg{
     padding: 0%;
-    height: auto;
+    width: 90%;
+    padding: 10%;
     animation: fadeIn 3s;
     margin: auto;
 }
