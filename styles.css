@@ -258,10 +258,22 @@ html, body {
 
 /* introcard */
 
+.hero-row{
+    margin: auto;
+}
+
+
 .heroimg{
-    border-radius: 3000px;
-    padding: 2%;
-    width: 35%;
+    padding: 0%;
+    height: auto;
+    animation: fadeIn 3s;
+    margin: auto;
+}
+
+.herotext{
+
+    padding: 0%;
+    width: 100%;
     animation: fadeIn 3s;
 }
 
@@ -272,7 +284,7 @@ html, body {
     padding: 5%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 0 0 30px 30px;
@@ -280,16 +292,28 @@ html, body {
     
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:850px){
+
+    .hero-row{
+        margin: auto;
+    }
 
     .heroimg{
-        border-radius: 3000px;
-        margin-top: 10%;
-        padding: 2%;
-        width: 60%;
+        
+        margin:10% auto 10% auto;
+        padding: 0%;
+        width: 100%;
+        height: auto;
         animation: fadeIn 3s;
     }
 
+    .herotext{
+
+        padding: 0%;
+        width: 100%;
+        animation: fadeIn 3s;
+        margin: auto;
+    }
     
 
     .introduction_card{
@@ -310,33 +334,7 @@ html, body {
 
 }
 
-/* top icons */
 
-.icons{
-    display: flex;
-    flex-direction: row;
-    width: 40%;
-    justify-content: space-evenly;
-    
-}
-
-.icon{
-    width: 24px;
-    margin: 7% 0% 7% 0%;
-    opacity: 50%;
-}
-
-.icon:hover{
-    opacity: 100%;
- 
-}
-
-.iconlinktop{
-    position: relative;
-    margin: 5% 15% 5% 15%;
-}
-
-/* top icons */
 
 #about{
     
