@@ -1,6 +1,6 @@
 .body{
 
-    margin: 0% 5% 0% 5%;
+    margin: 0% 10% 0% 10%;
     
 }
 
@@ -8,9 +8,19 @@ html{
     margin: 0%;
 }
 
+@font-face {
+  font-family: 'gilroyextrabold';
+  src: url('gilroy-extrabold-webfont.woff2') format('woff2'),
+       url('gilroy-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
 
 h1{
-    font-family: 'Manrope', 'serif';
+    font-family: 'gilroyextrabold';
     color: #252525;
     font-weight: bolder;
     margin: 2% 0 2% 0;
