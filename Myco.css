@@ -4,6 +4,14 @@
     
 }
 
+@media screen and (max-width :500px){
+
+  .body{
+    margin: 0% 5% 0% 5%;
+  }
+
+}
+
 html{
     margin: 0%;
 }
