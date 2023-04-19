@@ -42,7 +42,7 @@
 <use xlink:href="#image1_131_816" transform="scale(0.0027027 0.00133333)"/>
 </pattern>
 <pattern id="pattern7" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image5_131_816" transform="translate(0 -0.00504801) scale(0.000358166 0.000935274)"/>
+<use xlink:href="#image5_131_816" transform="matrix(0.000358166 0 0 0.000935274 0 -0.00504801)"/>
 </pattern>
 <clipPath id="clip0_131_816">
 <rect width="1920" height="744" fill="white"/>
