@@ -250,6 +250,13 @@ html, body {
     background-repeat: none;
 }
 
+@media screen and (max-width:500px){
+    .backgroundhero{
+        display: none;
+    }
+
+}
+
 
 
 
