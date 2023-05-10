@@ -273,7 +273,7 @@ html, body {
 
 .heroimg{
     padding: 0%;
-    width: 90%;
+    width: 100%;
     padding: 10%;
     animation: fadeIn 3s;
     margin: auto;
