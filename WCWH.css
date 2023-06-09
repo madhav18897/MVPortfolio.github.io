@@ -323,7 +323,23 @@ li{
     margin: 5% 0% 5% 0%;
 }
 
+.btn{
+  margin: 1% 0% 1% 0%;
+  padding: 1%;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #252525;
+  border-radius: 8px;
+}
 
+@media (max-width: 900px) {
+
+  .btn{
+    padding: 5%;
+    margin: 5% 0% 5% 0%; ;
+  }
+
+}
 
 
 
