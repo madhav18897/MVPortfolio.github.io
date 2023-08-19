@@ -277,6 +277,7 @@ html, body {
     padding: 10%;
     animation: fadeIn 3s;
     margin: auto;
+    border-radius: 3000px;
 }
 
 .herotext{
@@ -370,6 +371,64 @@ html, body {
     margin: 5%;
 
 }
+/*testimonials section*/
+
+#testimonials{
+
+    margin: 2% 5%;
+}
+
+.testimonial{
+    justify-content: space-around;
+    
+}
+
+
+.testimonialcard{
+    margin: 2% 2% ;
+    padding: 0%;
+    border-radius: 12px;
+    background-color: #0072b1;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+.name{
+    color: #121212;
+    font-size: 1.25rem;
+}
+
+.workplace{
+    color: #a7a7a7;
+}
+
+.recommendation{
+    padding: 5%;
+
+}
+
+.personsection{
+    background-color: #FFF;
+    border-radius: 0 0 12px 12px;
+    padding: 5%;
+}
+
+.person{
+    margin: 2% 0% ;
+    width: 25%;
+}
+
+.text{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.125rem;
+
+}
+
+
+
+/*end of testimonials section*/
 
 /* Cards------------------ */
 
@@ -481,7 +540,8 @@ html, body {
 
 .youtubechannel{
     
-    background-image: url(assets/guitarbgfancy.svg);
+    /* background-image: url(assets/guitarbgfancy.svg); */
+    background-color: #3700b3;
     border-radius: 16px 16px 16px 16px;
     margin: 5% 0.5% 5% 0.5%;
 }
