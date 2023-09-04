@@ -1,6 +1,7 @@
 html{
     margin: 0;
     padding: 0;
+    background-image: url(assets/backgroundmain.svg);
 }
 
 
@@ -538,12 +539,16 @@ html, body {
 
 /* youtube */
 
+#OtherCreativeWork{
+    margin: 5%;
+}
+
 .youtubechannel{
     
-    /* background-image: url(assets/guitarbgfancy.svg); */
-    background-color: #3700b3;
+    background-image: url(assets/youtubebg.svg);
+    /* background-color: #3700b3; */
     border-radius: 16px 16px 16px 16px;
-    margin: 5% 0.5% 5% 0.5%;
+    margin: 5% 0.5% 5% 0.5%; 
 }
 
 .youtubeitem{
@@ -555,6 +560,12 @@ html, body {
 .youtubeSS{
     margin: auto;
     width: 120%;
+    height: fit-content;
+}
+
+.youtubeembed{
+    margin: 0;
+    padding: 0;
 }
 
 .youtube-button{
@@ -564,8 +575,8 @@ html, body {
     white-space: nowrap;
     font-family: 'manrope', 'sans-serif';
     font-weight: bold;
-    color: #ffff;
-    opacity: 87%;
+    color: #121212;
+    opacity: 100%;
     border-radius: 4px;
     
 }
@@ -590,6 +601,10 @@ html, body {
     
         padding: 4%;
         
+    }
+
+    .youtubeembed{
+        height: 300px;
     }
 
     .youtube-button{
