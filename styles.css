@@ -479,6 +479,16 @@ html, body {
     
 }
 
+.NDAlabel{
+    padding: 1%;
+    background-color: #03DAC6;
+    color: #121212;
+    border-radius: 12px;
+    margin-top: 5% ;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 .card-highlight{
     margin-bottom: 2%;
     margin-top: 2%;
