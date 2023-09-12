@@ -409,6 +409,12 @@ html, body {
     color: #fff;
 }
 
+.aboutbutton:hover{
+    background-color: #fff;
+    color: #121212;
+    text-decoration: none;
+}
+
 @media screen and (max-width:820px){
 
     .aboutcards{
