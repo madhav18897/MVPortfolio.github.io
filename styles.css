@@ -56,6 +56,12 @@ p{
   text-align: center;
 } */
 
+#navbar{
+    padding: 2.75% 12%;
+}
+
+
+
 html, body {
     margin: 0;
     height: 100%;
@@ -101,7 +107,7 @@ html, body {
   
   .case-nav-links{
       text-decoration: none;
-      color: #fff;
+      color: #a3a3a3;
       opacity: 87%;
   
   }

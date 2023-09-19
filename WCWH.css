@@ -1,6 +1,6 @@
 .body{
 
-   margin: 0% 10% 0% 10%;
+   margin: 0% 12% 0% 12%;
     
 }
 
@@ -14,6 +14,10 @@
 
 html{
     margin: 0%;
+}
+
+#navbar{
+  padding: 2.75% 12%;
 }
 
 @font-face {

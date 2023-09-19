@@ -16,6 +16,10 @@ html{
     margin: 0%;
 }
 
+#navbar{
+  padding: 2.75% 12%;
+}
+
 @font-face {
   font-family: 'gilroyextrabold';
   src: url('gilroy-extrabold-webfont.woff2') format('woff2'),
