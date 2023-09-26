@@ -578,6 +578,7 @@ html, body {
 .footer-icons{
     display: flex;
     flex-direction: row;
+    margin-bottom: 10%;
     
 }
 
@@ -603,6 +604,7 @@ html, body {
 #footer{
     margin: 5% 12% 10% 12%;
 }
+
 
 .copyright{
     margin: 5% 0% 10% 0%;
