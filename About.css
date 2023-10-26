@@ -1,7 +1,6 @@
 .html{
     margin: 0%;
     padding: 0%;
-    scroll-behavior: smooth;
 }
 
 body{
@@ -113,7 +112,7 @@ html, body {
   .menu-button::before,
   .menu-button::after {
     display: block;
-    background-color: #121212;  /*hamburger menu icon color*/
+    background-color: #121212;  /*hamburger menu color*/
     position: absolute;
     height: 4px;
     width: 30px;
@@ -221,10 +220,9 @@ p{
     font-family: 'manrope', 'sans-serif';
     font-size: 1rem;
     color: #666666;
-
 }
 
-#hero, #companies, #projects ,#footer{
+#hero, #companies, #projects ,#footer, #about,#testimonials{
 
     margin: 0% 10%;
     padding: 0%;
@@ -252,9 +250,7 @@ p{
 
 .mvphoto{
     margin-bottom: 0;
-    border-radius: 2rem;
 }
-
 
 
 
@@ -283,15 +279,33 @@ p{
 .UTbox{
 
     display: flex;
-    padding: 1.5rem 2rem;
+    padding: 16px 24px;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    align-self: flex-end;
+    gap: 24px;
 
     border-radius: 1.5rem;
-    background: #f3f3f3;
-    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
 }
+
+.homebutton{
+  margin: 10% 0% 0% 0%;
+  font-family: 'Gilroyextrabold';
+  border-radius: 4000px;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+
 
 /*companies*/
 
@@ -330,9 +344,9 @@ p{
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
-    padding: 2rem 0rem;
+    padding: 1rem 2rem;
     background: #FFF;
-    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
     height: 280px;
     width: 200px;
@@ -348,23 +362,18 @@ p{
 
 .resumecard{
     display: flex;
-    padding: 2rem;
+    padding: 24px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.5rem;
+    gap: 1rem;
+    flex: 1;
     height: 280px;
-    text-decoration: none;
     
 
-    border-radius:2rem;
+    border-radius: 1rem;
     background: #121212;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
 
-}
-
-.resumecard:hover{
-  transform: translateY(1rem);
-  transition: transform 0.1s ease-in-out;
 }
 
 /*media query for experience section*/
@@ -399,17 +408,14 @@ p{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 6rem;
+    gap: 4rem;
 }
 
 .projectcard{
     display: flex;
     align-items: flex-start;
-    gap: 3rem;
-    margin-left: -10px;
+    gap: 2rem;
 }
-
-
 
 .projectcardtext{
     display: flex;
@@ -427,61 +433,68 @@ p{
 
 .primarybtn{
 
-    display: flex;
-    padding: 1rem 2rem 1rem 2rem;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-size: 1rem; 
-    color: #fff;
-    text-decoration: none;
+  display: flex;
+  padding: 1rem 2rem 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem; 
+  color: #fff;
+  text-decoration: none;
 
-    border-radius: 300px;
-    background: #121212;
+  border-radius: 300px;
+  background: #121212;
 }
 
 .primarybtn:hover{
-  color: #ffffff;
-  background-color: #343434;
-  text-decoration: none;
-  
+color: #ffffff;
+background-color: #343434;
+text-decoration: none;
+
 }
 
 .primarybtn:active{
-  color: #ffffff;
-  background-color: #232323;
-  text-decoration: none;
+color: #ffffff;
+background-color: #232323;
+text-decoration: none;
 }
 
 .secondarybtn{
-    display: flex;
-    padding: 1rem 2rem 1rem 2rem;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-size: 1rem; 
-    color: #121212;
-    text-decoration: none;
+  display: flex;
+  padding: 1rem 2rem 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem; 
+  color: #121212;
+  text-decoration: none;
 
-   
-    border-radius: 300px;
-    border: 1px solid #121212;
+ 
+  border-radius: 300px;
+  border: 1px solid #121212;
 
 }
 
 .secondarybtn:hover{
-  color: #121212;
-  background-color: #ececec;
-  border: 1px solid #121212;
-  text-decoration: none;
+color: #121212;
+background-color: #ececec;
+border: 1px solid #121212;
+text-decoration: none;
 }
 
 .secondarybtn:active{
-  color: #121212;
-  background-color: #c2c2c2;
-  border: 1px solid #121212;
-  text-decoration: none;
+color: #121212;
+background-color: #c2c2c2;
+border: 1px solid #121212;
+text-decoration: none;
 }
+
+.youtubeembed{
+  margin: 0;
+  padding: 0;
+  border-radius: 2rem;
+}
+
 
 /*media query for projects*/
 
@@ -494,9 +507,9 @@ p{
             gap: 2rem;
         }
 
-        .project_img{
-          width: 80%;
-        }
+        .youtubeembed{
+          height: 300px;
+      }
 
     }
 
@@ -506,6 +519,97 @@ p{
 
 
 /*Projects*/
+
+
+
+/*testimonials section*/
+
+
+.testimonial{
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  overflow-x:auto;
+  
+}
+
+
+.testimonialcard{
+  display: inline-flex;
+  padding: 5%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 2rem;
+  background: #e8e8e8;
+  height: 100%;
+  /* border: 2px black; */
+
+
+}
+
+.name{
+  color: #4252EB;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.workplace{
+  color: #121212;
+  text-align: center;
+  font-family: 'Manrope', 'sans-serif';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.personsection{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.person{
+  
+  width: 20%;
+  border-radius: 3000px;
+}
+
+.namerelation{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0px;
+}
+
+.text{
+  color: #121212;
+  font-family: 'Manrope', 'sans-serif';
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+
+
+
+/*end of testimonials section*/
+
+@media screen and (max-width: 1083px) {
+
+  .testimonial{
+    flex-direction: column;
+  }
+
+}
+
+
+
+
+
+/*end of testimonials section*/
 
 
 /*footer*/
@@ -532,20 +636,23 @@ p{
 
 
 
-.backtotop{
-    display: flex;
-    padding: 2rem ;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    
 
-    border-radius: 32px;
-    /* background: #fff; */
-    /* border: 4px #121212; */
-    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
+.backtotop{
+  display: flex;
+  padding: 2rem ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  
+
+  border-radius: 32px;
+  /* background: #fff; */
+  /* border: 4px #121212; */
+  /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
 }
+
+
 
 
 .socials{
@@ -553,7 +660,6 @@ p{
     flex-direction: row;
     align-items: flex-start;
     gap: 2rem;
-
 }
 
 .social-icons{
@@ -579,6 +685,8 @@ p{
     padding: 0rem;
   }
 }
+
+
 
 /*footer*/
 
